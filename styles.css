@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: #dfdfe2;
+}
+
+#title, #theme {
+    text-align: center;
+}
+
+#img-div {
+    background-color: #ffffff;
+    margin: 0 20px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    vertical-align: top;
+}
+
+#tribute-info{
+    max-width: 35rem;
+    margin: 0 auto;
+    line-height: 1.6rem;
+}
+
+.years {
+    font-weight: bold;
+}
+
+section[class ~= "quote"] p{
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 auto;
+    padding-bottom: 10px 0;
+}
+
+.link-tribute {
+    max-width: 80rem;
+    text-align: center;
+    font-weight: bold;
+}
